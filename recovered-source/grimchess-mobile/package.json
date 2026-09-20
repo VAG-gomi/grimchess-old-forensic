@@ -1,0 +1,42 @@
+{
+  "name": "grimchess-mobile",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "node --test --import tsx src/__tests__/*.test.ts",
+    "test:unit": "node --test --import tsx src/__tests__/simulator.test.ts",
+    "test:integration": "node --test --import tsx src/__tests__/integration.test.ts",
+    "benchmark": "node --import tsx src/__tests__/benchmark.ts",
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "android": "npm run build && cap sync android && cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/preferences": "^6.0.0",
+    "chess.js": "^1.0.0-beta.8",
+    "react": "^18.3.1",
+    "react-chessboard": "^4.6.0",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@types/react": "^18.3.3",
+    "@types/node": "^22.10.2",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "tar": "file:../vendor/tar-compat"
+    }
+  }
+}

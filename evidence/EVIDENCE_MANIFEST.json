@@ -1,0 +1,880 @@
+{
+  "archive_name": "GrimChess Older APK Forensic Archive",
+  "method_reference": "VAG-gomi/grimchess-f1-forensic",
+  "apk_evidence": [
+    {
+      "evidence_id": "OLD-APK-001",
+      "preserved_filename": "OLD-APK-001__GrimChess-Offline-2.apk",
+      "source_observation": "/home/ubuntu/GrimChess-Offline-2.apk",
+      "origin_description": "standalone available APK",
+      "size_bytes": 3847857,
+      "sha256": "488246fa5ac6892cd5b665aa0ed18080de54b390a317147e63e568e1223f1fda",
+      "chronological_order": "NOT ESTABLISHED"
+    },
+    {
+      "evidence_id": "OLD-APK-002",
+      "preserved_filename": "OLD-APK-002__Grimchessabsolute.apk",
+      "source_observation": "/home/ubuntu/upload/Grimchessabsolute.apk",
+      "origin_description": "uploaded APK",
+      "size_bytes": 3770906,
+      "sha256": "61a00ce9c1fb54a995cd6351eb15add9a46a5b60774a2264c4fa4b9e3f301fc3",
+      "chronological_order": "NOT ESTABLISHED"
+    },
+    {
+      "evidence_id": "OLD-APK-003",
+      "preserved_filename": "OLD-APK-003__grimchess-offline-2.apk",
+      "source_observation": "/home/ubuntu/upload/grimchess-offline-2.apk",
+      "origin_description": "uploaded APK",
+      "size_bytes": 3766810,
+      "sha256": "c4c4e31a32117fa0b9353d0a11e60f583cfc97096193fb8188931f431c41a37e",
+      "chronological_order": "NOT ESTABLISHED"
+    },
+    {
+      "evidence_id": "OLD-APK-004",
+      "preserved_filename": "OLD-APK-004__grimchess-release-test.apk",
+      "source_observation": "/home/ubuntu/work/source-archive-inspect/Grimchess-Engine/grimchess-engine/grimchess-mobile/releases/grimchess-release-test.apk",
+      "origin_description": "source-archive release artifact",
+      "size_bytes": 3766810,
+      "sha256": "95b0661002f8f99f4970ee7e4776e44e2a0cbb80faed75af80ce37145aae33ae",
+      "chronological_order": "NOT ESTABLISHED"
+    }
+  ],
+  "source_scope": {
+    "status": "VERIFIED_FROM_RECOVERED_SOURCE",
+    "included": "source and build inputs excluding generated outputs, dependency directories, dist, build intermediates, and APK release copies",
+    "excluded": "generated/intermediate material and the source archive nested .git directory",
+    "source_file_count": 123
+  },
+  "files": [
+    {
+      "path": "BUILD_RECONSTRUCTION.md",
+      "size_bytes": 1483,
+      "sha256": "75e78e02d2b98016e16095148afd5ffd2cac9fb6fd1f523531ea6b651d47face",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "FILE_PURPOSE_MAP.md",
+      "size_bytes": 1329,
+      "sha256": "84fa5c0ad6ce04558647c1875f6e397e2f45ac1f7fabddcbba89072d5d6d7dc5",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "FORENSIC_INDEX.md",
+      "size_bytes": 1883,
+      "sha256": "6d54a9e256dbc8ef9d1880106a0a41098f3088ae4ca9b4343e7464a0e6f370b3",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "INVESTIGATION_STATUS.md",
+      "size_bytes": 897,
+      "sha256": "f47ccdd2b3060a40991e136b4a58a12f9aa92c808aa8e6c53204ac3b1f7fe378",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "JOURNEY.md",
+      "size_bytes": 1233,
+      "sha256": "a73fbdf0cd9bc14f50d4bed3703721a65e2e2be1b3a09d5d0ca340c523aee768",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "size_bytes": 1065,
+      "sha256": "c16e2b967a570fdb4de044607d0ff9eb32e859a1a2e50c606f93348f3321f9b0",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 854,
+      "sha256": "0b528cc546e506d3783ad9f591a2117da76e75f3e7f9a3a00663cec0915fdd71",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "artifacts/apk/OLD-APK-001__GrimChess-Offline-2.apk",
+      "size_bytes": 3847857,
+      "sha256": "488246fa5ac6892cd5b665aa0ed18080de54b390a317147e63e568e1223f1fda",
+      "evidence_status": "VERIFIED_FROM_APK"
+    },
+    {
+      "path": "artifacts/apk/OLD-APK-002__Grimchessabsolute.apk",
+      "size_bytes": 3770906,
+      "sha256": "61a00ce9c1fb54a995cd6351eb15add9a46a5b60774a2264c4fa4b9e3f301fc3",
+      "evidence_status": "VERIFIED_FROM_APK"
+    },
+    {
+      "path": "artifacts/apk/OLD-APK-003__grimchess-offline-2.apk",
+      "size_bytes": 3766810,
+      "sha256": "c4c4e31a32117fa0b9353d0a11e60f583cfc97096193fb8188931f431c41a37e",
+      "evidence_status": "VERIFIED_FROM_APK"
+    },
+    {
+      "path": "artifacts/apk/OLD-APK-004__grimchess-release-test.apk",
+      "size_bytes": 3766810,
+      "sha256": "95b0661002f8f99f4970ee7e4776e44e2a0cbb80faed75af80ce37145aae33ae",
+      "evidence_status": "VERIFIED_FROM_APK"
+    },
+    {
+      "path": "evidence/EVIDENCE_MANIFEST.md",
+      "size_bytes": 1578,
+      "sha256": "00eb2ac50c8da8db6aa64649ae14fea9079bdc82784e7ec11a888986491017f4",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "evidence/source-archive/source-archive-git-log.txt",
+      "size_bytes": 416,
+      "sha256": "2737387dcd23faaef48bcbfbf2223fbf83fa0b063ae1e8e288e7c7973afcc530",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "evidence/source-archive/source-archive-head.txt",
+      "size_bytes": 41,
+      "sha256": "a548f2133bbf65938ef6bee33ce17b5e722b2a9d2137942b11b146facfe955f6",
+      "evidence_status": "DOCUMENTATION/METADATA"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/.env.example",
+      "size_bytes": 238,
+      "sha256": "0e41ce064bb3377bd470d23c3254648309fd515b23cf2b538be3aea0dbdf9be7",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gitignore",
+      "size_bytes": 1824,
+      "sha256": "065e4a92a240fe11a0ea230491ad9dabef143f5fd5a3e6884ad6f0395666a971",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/checksums/checksums.lock",
+      "size_bytes": 17,
+      "sha256": "bc0819f5adc878136c9307c6dcb9f545af4fcc9eba5b7e35c28deeae2ef95d18",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/checksums/md5-checksums.bin",
+      "size_bytes": 36147,
+      "sha256": "91d8a1efa81de754df163c0c82a2c5d1e4af6cbf39e34c7ff6c4efeea4998056",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/checksums/sha1-checksums.bin",
+      "size_bytes": 86207,
+      "sha256": "d8c44636811590c80002c61e9d1d62993e878d1af2f75443d40d734f4f5d9ffd",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/dependencies-accessors/dependencies-accessors.lock",
+      "size_bytes": 17,
+      "sha256": "f65740785ba987f8183f102854aa5b365899821f75093bcbefe706095bf5fb19",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/dependencies-accessors/gc.properties",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/executionHistory/executionHistory.bin",
+      "size_bytes": 8950203,
+      "sha256": "3b22566b454f4c21c27341383fcbe2fad8e3dc3be105efd653fc95d556432d04",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/executionHistory/executionHistory.lock",
+      "size_bytes": 17,
+      "sha256": "81c233127c9a3c518d93140a8d94892ef528e590933481365e780fb52ea5288e",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/fileChanges/last-build.bin",
+      "size_bytes": 1,
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/fileHashes/fileHashes.bin",
+      "size_bytes": 440591,
+      "sha256": "ad32e41ecb84357a2fac13d1e54f4868c40f50fa66779563d989d0bea5457d39",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/fileHashes/fileHashes.lock",
+      "size_bytes": 17,
+      "sha256": "753ff810e3bce695b4df208594e940ea8e5df0c116425538405137130100e15e",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/fileHashes/resourceHashesCache.bin",
+      "size_bytes": 21693,
+      "sha256": "f956e4839589fde29e8232e301b3f1a005ae420dff5b9da3f81c419e82fb95b6",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/gc.properties",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock",
+      "size_bytes": 17,
+      "sha256": "554df3ff933ce4e2af0d93a14b59b76135ddcf0fd1840f631f313545451c4d5a",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/buildOutputCleanup/cache.properties",
+      "size_bytes": 51,
+      "sha256": "ccc47bd2e2a07fb0ebdf5bdace084602ef91df9bf27b6fc8aceef2bbf7ff6dad",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/buildOutputCleanup/outputFiles.bin",
+      "size_bytes": 170357,
+      "sha256": "cbb71786e9bcb6423c7b57f75bcd47ac29700d093a6ea6ccd957dd0870a0d9b6",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/.gradle/vcs-1/gc.properties",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/.gitignore",
+      "size_bytes": 26,
+      "sha256": "99c54e51ee601a60fbde8016b2cbf717483bc2e92773be86c9247d02a7fa6ea4",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/build.gradle",
+      "size_bytes": 2128,
+      "sha256": "616fa335f1c4ebd4b23a16d077413354b400c649e2ee189bdf3c1ca823aeb4d1",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/capacitor.build.gradle",
+      "size_bytes": 422,
+      "sha256": "4d276243789e3a048e7a360f222572e17672dfdffa1c9e05f18529c935c51f9f",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/proguard-rules.pro",
+      "size_bytes": 751,
+      "sha256": "1cf8c57e8f79c250b0af9c1a5a4edad71a5c348a79ab70243b6bae086c150ad2",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "size_bytes": 774,
+      "sha256": "ff50b4c110a7434312f9af54171f9e8523b015836f707c9b387b76d4c38a97f8",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/AndroidManifest.xml",
+      "size_bytes": 1518,
+      "sha256": "1012280e069bd8ad20829391d8acafff9a1ac1f7f1fefb6c2c0c493a34990b1e",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/java/com/grimware/chess/MainActivity.java",
+      "size_bytes": 122,
+      "sha256": "305a9125b7f7542568b717fec530c66a2fdffde9c86c913e1722c15cf36b13b2",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable/ic_launcher_background.xml",
+      "size_bytes": 5606,
+      "sha256": "718ba51adf166bb55c3e9936bb8199a0148457f7f0191aaa2f37a94f3159d6ec",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable/splash.png",
+      "size_bytes": 4040,
+      "sha256": "5cf98b4451bd99b20df26f9e608a46946118be6b0ae90762f9ca1786a30c76ff",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-land-hdpi/splash.png",
+      "size_bytes": 7705,
+      "sha256": "08cc34ad7713fe7ed58bceaa37b2387b670c53cd60264b4bd6442db3098e75dc",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-land-mdpi/splash.png",
+      "size_bytes": 4040,
+      "sha256": "5cf98b4451bd99b20df26f9e608a46946118be6b0ae90762f9ca1786a30c76ff",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-land-xhdpi/splash.png",
+      "size_bytes": 9251,
+      "sha256": "22f87e1e3bc89aa01a7dbc39c9a4db058cd0bf4ad3fe9f55712bf69eb997f4bf",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-land-xxhdpi/splash.png",
+      "size_bytes": 13984,
+      "sha256": "42aa26392546fcdee1b8d3ac6d4b41bfcceb41dc6a4f3a3c30c24a8a8f4db862",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-land-xxxhdpi/splash.png",
+      "size_bytes": 17683,
+      "sha256": "60393ce8636fd263e4e1fea3fd4ab2de948c6295e898fda9b50ac4e5283be809",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-port-hdpi/splash.png",
+      "size_bytes": 7934,
+      "sha256": "c5015f4ba3628392b538386c5e210f0b94f352a3160adab934fd0311972137ca",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-port-mdpi/splash.png",
+      "size_bytes": 4096,
+      "sha256": "07fa579e1c83e04ba7f9cbcbfcf41b68e15fe3638f2c44a04e58b809103e6b69",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-port-xhdpi/splash.png",
+      "size_bytes": 9875,
+      "sha256": "b73049cb37fe76d6c11b87a796766bf6af0c85483b31eb6a921657b0d764a4b9",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-port-xxhdpi/splash.png",
+      "size_bytes": 13346,
+      "sha256": "0c7f1212f25b7b90e9a6e1d320013e4ff3d3e03e634cbb07b7b7981cac51627f",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-port-xxxhdpi/splash.png",
+      "size_bytes": 17489,
+      "sha256": "3db071a03b2f8ffe0dfd4170fc59842d53cd15bba5e88af59401d58efabf7827",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+      "size_bytes": 1880,
+      "sha256": "a8514094f754b099d3e55ce1d6e0b2de79db418b2eeacb0fc2a6bb0bfadef221",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/layout/activity_main.xml",
+      "size_bytes": 535,
+      "sha256": "5d770feb791313b947020cbfc57e5c733c556dac5e9e49261a1190e527073253",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "size_bytes": 265,
+      "sha256": "9c3a7e0a6515c6e1a7ae834a9ae430311ebc3241f7b2e5e7f0460aa690709a7c",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "size_bytes": 265,
+      "sha256": "9c3a7e0a6515c6e1a7ae834a9ae430311ebc3241f7b2e5e7f0460aa690709a7c",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "size_bytes": 2786,
+      "sha256": "72b71c3581ca3b5a23b1c168d69b9d855b3f184fa079902a01f088eb4f0607d5",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "size_bytes": 3450,
+      "sha256": "32baa10d2632a4417454a579f992bd640e0a3cec79321423559b2c9940de58a9",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "size_bytes": 4341,
+      "sha256": "bfcc1b0fa931b14bb241372c76ab4f04374b67d02363c98d9cb12edfdacdf5f3",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "size_bytes": 1869,
+      "sha256": "27ed3603010ebc278f64f8645741ab132ff517abb5308eb9df6c8e42a48956b2",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "size_bytes": 2110,
+      "sha256": "58e78a618778926b1f6d9472a6468de878de8530970934e94aab5ba4ba08cc00",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "size_bytes": 2725,
+      "sha256": "0166fc333074c373fbd0ce6b5defd71552166165ac778121ca9c9dff6b83f0fc",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "size_bytes": 3981,
+      "sha256": "d35dbfff175b83c13ef59cf924abfc810f7b6a158595d7417c5498ea8c7c7ed1",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "size_bytes": 5036,
+      "sha256": "6f88083b8166cc559102f7044688de7525287632ebe09ac45d001ac8bf4b3eae",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "size_bytes": 6593,
+      "sha256": "40911a00922868686854a4804b93fd6e56b503664696de03f450bff690affb6d",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "size_bytes": 6644,
+      "sha256": "ed346eb1e3f0280f15709393705899b3ff55c20b88f4e0308006b3c33cf5fe14",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "size_bytes": 9793,
+      "sha256": "4a82bc1e9923576275869998925ce0ae021a79aa18b24a0dd87ad6b61ca85053",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "size_bytes": 10455,
+      "sha256": "1ee4cd9ff371dcb2e3938097e434f6fb8731688ed7165e61fc63693ad5b2f455",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "size_bytes": 9441,
+      "sha256": "87cb2f2ffe992652bb4fa768c73719a37b5852ab17fbf8e170e888f7a42b0761",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "size_bytes": 15529,
+      "sha256": "bd24fd383253bf8d43f0a81f11c071d76d1d555114376dd647cd9fb38fa0a9da",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "size_bytes": 15916,
+      "sha256": "ab93096331e7cd8ec379f73f1e9adcaaa9ee1115c9f4ff10411a811fb9700174",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/values/ic_launcher_background.xml",
+      "size_bytes": 120,
+      "sha256": "cd40bafe618ff506f4088778b135cb4faa15f25e0c9b475e22d730c74b7be115",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/values/strings.xml",
+      "size_bytes": 294,
+      "sha256": "a4f87c05c30acb0db80b19579ab09b478d133cafc9c9d71746f56b6efb35bd0e",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/values/styles.xml",
+      "size_bytes": 823,
+      "sha256": "18ebba36575e9461347ee67361b23caf095f158ee85dbefe1b83a4669ba5bd6c",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/xml/config.xml",
+      "size_bytes": 185,
+      "sha256": "e9dcda493e663c5c4db9e3cb3bd968477a6e90aa8840bcbba40d72ed54b767ce",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/xml/file_paths.xml",
+      "size_bytes": 213,
+      "sha256": "a46ed43ef65c90cb6778f4581decf3556e3f0055aad8f36d69dae16f9a0e99aa",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+      "size_bytes": 402,
+      "sha256": "d4045ae8fac1f0807e6b24eb34e68409a9a235df9d1a3f896fb8c9a49424363d",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/build.gradle",
+      "size_bytes": 636,
+      "sha256": "c05c6e67af5651a56aecb0908027be42c84c03dad529af4839dbdc4393405158",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/build.gradle",
+      "size_bytes": 1661,
+      "sha256": "0fc6605e7e0f9b9ba2e60be539c5a9e42b8ef6841e684439c7061cdaade5837f",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/cordova.variables.gradle",
+      "size_bytes": 312,
+      "sha256": "1a5679e3f7757891431842bbdd89e9570445d4180a23a2d00f101dd8860d77a7",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml",
+      "size_bytes": 210,
+      "sha256": "2e3e383475f0e6cb76f0a7b46017a546663fba8e5bd1ef2a537412afac2ee9b5",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/src/main/java/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/src/main/res/.gitkeep",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/capacitor.settings.gradle",
+      "size_bytes": 483,
+      "sha256": "f0ec980729226ff36e02d3f3331743c2fc5867f3f8eb86571175dc059a3ff7e3",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/gradle/wrapper/gradle-wrapper.jar",
+      "size_bytes": 63375,
+      "sha256": "a8451eeda314d0568b5340498b36edf147a8f0d692c5ff58082d477abe9146e4",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/gradle/wrapper/gradle-wrapper.properties",
+      "size_bytes": 252,
+      "sha256": "252070f2b15e40fd80dc5f8f3a6ae8a2f6928bec943889e189a78b294e8f36a5",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/gradle.properties",
+      "size_bytes": 987,
+      "sha256": "3bab15c5b8bc4c2f4b6cf525497d15ad4abca53a460e6dd2eb0f0135817d31e6",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/gradlew",
+      "size_bytes": 8527,
+      "sha256": "e0108761fee312b7b373ee96c0870cab5c167e664ac507776814b1d59e9b3bad",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/gradlew.bat",
+      "size_bytes": 2868,
+      "sha256": "8e327fcb99d29ce0fe3ee2fec6e6a25de815a2df83a6a44a553dea89ffc92955",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/settings.gradle",
+      "size_bytes": 208,
+      "sha256": "6ce098d15ebd69b44c4ecd786bca1bdc366340d2459b2af4d7bb0ab317aa9669",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/android/variables.gradle",
+      "size_bytes": 496,
+      "sha256": "47391f3ef8551f8cdeabcc383a99bbee6927d8b4191cfaf3027353fe25741852",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/capacitor.config.ts",
+      "size_bytes": 337,
+      "sha256": "80a55bf3ebed95c76c7fc7b55da9f2eb23229a5318cf247b911a64ed6650403b",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/download-stockfish.sh",
+      "size_bytes": 827,
+      "sha256": "387590f3d253d643974409fca2e6fde1f5d2f116b87422a61140f3b31024ec9b",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/index.html",
+      "size_bytes": 650,
+      "sha256": "9840ba665a86692fbbd35a208dd2ccd8718977760b1a3713047d837e22fa5581",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/package-lock.json",
+      "size_bytes": 124117,
+      "sha256": "7c7ee7ded25b6c43159eca1f064c00392ed9935683fd3a42aafd1322974fb0e5",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/package.json",
+      "size_bytes": 1226,
+      "sha256": "8dea622939b15e6913efdc02bb20dffe3c6d457bd86d6745daa6bfa48633c8af",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/pnpm-lock.yaml",
+      "size_bytes": 72630,
+      "sha256": "35763217e08d637b74a2617415ec9dc178fc17c3323708a1497e352d415f4748",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/public/stockfish/stockfish-nnue-16-single.js",
+      "size_bytes": 25594,
+      "sha256": "e2958bb89fc6ee0faedde87284bbb7e14da2ab224f06ca1bd82e62eaca87d00b",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/public/stockfish/stockfish-nnue-16-single.wasm",
+      "size_bytes": 575029,
+      "sha256": "a7acf7f20cb81d755b39b3dd42a4bdfd6e8c8d3d203d9fbdc525e40e1f68df08",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/public/stockfish/stockfish-nnue-16.js",
+      "size_bytes": 41125,
+      "sha256": "a4323fce1dd227135d2a4f00687bdb503a37f3a14f0ecc8199b37ea50fd4ab9e",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/public/stockfish/stockfish-nnue-16.wasm",
+      "size_bytes": 708419,
+      "sha256": "6dee4e00888ec42efd1f74a8c605b600a59f5de79f7cbfdb432dff4f1e078bf5",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/App.tsx",
+      "size_bytes": 20923,
+      "sha256": "59b7696ce48db13ca7c79e9cae8ccb4b8b311b69ea272ec34b3f36065b9f2a48",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/__tests__/integration.test.ts",
+      "size_bytes": 2692,
+      "sha256": "ff7414864a81480b981794f295f121dbba4ab8f15399b99a62bd470402ba7f66",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/__tests__/paradox.test.ts",
+      "size_bytes": 2838,
+      "sha256": "04252b96c30cf6c665e954ec6fc4d0ca6ae91b0a655cb29aad3c342ec0ab964a",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/__tests__/simulator.test.ts",
+      "size_bytes": 8312,
+      "sha256": "cc71d6e1bef6f6929ede3e2b34fb759293c7c6e7107b5efddc976575748bd161",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/components/Chat.tsx",
+      "size_bytes": 1212,
+      "sha256": "ec4e6aea6886c727bb00cc5e5336441d8a80ec9c2bed0320f888b9d5a066d42c",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/components/ForcePanel.tsx",
+      "size_bytes": 4568,
+      "sha256": "290cd2554d85256a6f375131cc29e8c498635aa0a580ebafa89d3c2cf7cf790e",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/components/InitScreen.tsx",
+      "size_bytes": 5533,
+      "sha256": "df56f2ef82a30746a4445016190b0c344f290e0c2f3a66596c157aa5e97af1ef",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/components/ResumeScreen.tsx",
+      "size_bytes": 1765,
+      "sha256": "95c9a9589fe0d24763773a2603e1511056dbec5dcb44d68ac2abd2d9fe3f70d8",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/components/Sparkline.tsx",
+      "size_bytes": 1059,
+      "sha256": "8169733bd2ce75c4ee480a8dbc21995ff2e3d34a2afb526d20363db772d5a3fb",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/engine/stockfish.ts",
+      "size_bytes": 4722,
+      "sha256": "ee144c39f4714647c587ab8a95327167a55f6d3573eabcd5f1032578051bf6b2",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/hooks/useForces.ts",
+      "size_bytes": 2003,
+      "sha256": "b891ab3df5e5c6bf5f199c93795825ba0a47591fd3843ae319a057e28541b682",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/hooks/useOracle.ts",
+      "size_bytes": 1569,
+      "sha256": "47eef1a43a8268cb59a2e1e3f1d09dc51be6746016fabb83cf1ab2c4300e3e9c",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/hooks/useStorage.ts",
+      "size_bytes": 1576,
+      "sha256": "a3e3ca83a2709eb9e0bdf8793df9431a888b770e10b4624bb221bb76394a9ea9",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/main.tsx",
+      "size_bytes": 212,
+      "sha256": "03f48a8ca753892031d7ba25543788efc5f3c03f2668c273b24788206cb740b6",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/BenchmarkRunner.ts",
+      "size_bytes": 11232,
+      "sha256": "947bb5a7490cfabdabec5118656df5e10c00b5207ca04ab150adc7ecf45d6187",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/BenchmarkSuite.ts",
+      "size_bytes": 6264,
+      "sha256": "24b279cde068bfcfce7becd6a052225ffb3690b83873a24d949737955f1de742",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/ChessSimulator.ts",
+      "size_bytes": 4132,
+      "sha256": "2bef5501246fc15e85da0b22df71f4dc111943fe89bc244ff52750278430469c",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/ForceModel.ts",
+      "size_bytes": 3929,
+      "sha256": "a54c441996a0aa3b047f8060d3d1a3b456a1b3a8ce1aeddce496c89fca9705cd",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/IntegrityGuards.ts",
+      "size_bytes": 829,
+      "sha256": "71ffd6374734765bf841201d27e28c476ddf27142719c74066d6d60c925979e0",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/MoveClassifier.ts",
+      "size_bytes": 2623,
+      "sha256": "bcc6962c36b8be64c63b1fa4e5b8eebac1ce12ed87dcc9bc8a295c0d7e69de7e",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/OracleService.ts",
+      "size_bytes": 2662,
+      "sha256": "04008e82f34e8c27981169bf97a68d9f07187088707070f0e5904b115d614ab9",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/ReplayStore.ts",
+      "size_bytes": 1596,
+      "sha256": "bf3228027d05b7b09abe4e877b2fd2d0ea4349867d55fd3251505d4c95b1a129",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/StockfishAdapter.ts",
+      "size_bytes": 5023,
+      "sha256": "3241e2fd20fa3ca9b2c6202778ab89add329b28d6045af56ce767507ed452773",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/index.ts",
+      "size_bytes": 1384,
+      "sha256": "7c1e2de0f884ac48d73e667b0b15f51f39d5e20eb3a2e51aaa13c1b3f8368dde",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/paradox/ContradictionDetector.ts",
+      "size_bytes": 1379,
+      "sha256": "a28847c041e135a34c4525370e3e5afb3cd4f90a0517a0593b7fb401c71ffb92",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/paradox/LiveAdapter.ts",
+      "size_bytes": 1774,
+      "sha256": "6cb0be36ad4df61a0ad9962ca2bc916b1899157e99bec2eaf9133e755ceb1206",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/paradox/MapRevisionEngine.ts",
+      "size_bytes": 1537,
+      "sha256": "ee165c4006fdb169ec66309b22662cc3d8f0766b3aa97ecf4602734b34c63956",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/paradox/ParadoxEngine.ts",
+      "size_bytes": 3437,
+      "sha256": "73efe96c07171d60977bda43fdc34202474f300270ab60ccc315c09f0d2ed86c",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/paradox/PredictionMap.ts",
+      "size_bytes": 3214,
+      "sha256": "7c9fe03bf92c9a266302e1165374c765f78cb47fe84a8f5d2cdecfcbcbedc7b5",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/paradox/index.ts",
+      "size_bytes": 655,
+      "sha256": "67d97270a60cf16da94ff0694bb6b5bed2c30f64be6f4a6e3dc5c931d9a8638f",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/paradox/types.ts",
+      "size_bytes": 2197,
+      "sha256": "7f1850a9d50c30ea972dcebfee7df2fa86a076bdea3dfbd7316c55edeb8dda56",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/simulator/types.ts",
+      "size_bytes": 3987,
+      "sha256": "612c0afd32840e55f77d70d8b7295d686b96c8f4840173bd924e75181764f659",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/types/index.ts",
+      "size_bytes": 1053,
+      "sha256": "5d939515fa1d3bcf8e33cc3bc5a6139a915503db61942e457ff44e476bbdc741",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/src/vite-env.d.ts",
+      "size_bytes": 197,
+      "sha256": "daa440f49d2508282557d1101ec80d371497e68c2bf4c01012ad1cc66717fb79",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/tsconfig.json",
+      "size_bytes": 562,
+      "sha256": "e09b1d7398a757eae35c19efcd50710803fe8df7e8d6414d2b6f595166ebf906",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/tsconfig.node.json",
+      "size_bytes": 213,
+      "sha256": "9e2abb169ea87b7190613a1d4da57ca608463a453bd4231fa3aeee5e308370dd",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    },
+    {
+      "path": "recovered-source/grimchess-mobile/vite.config.ts",
+      "size_bytes": 245,
+      "sha256": "643e6b046ff9e3825ef55fae8ca4b36a4e4d6cc8000f2d885387b3263528b568",
+      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
+    }
+  ],
+  "limitations": [
+    "APK-to-source build identity is not proven by an original build commit.",
+    "The chronological ordering of the four APKs is not established.",
+    "No Old-versus-Current comparison is performed in this archive.",
+    "Excluded generated assets may be regenerated only if the build inputs and external dependencies are available."
+  ],
+  "archive_file_count_excluding_self_manifest": 137,
+  "archive_file_count_including_self_manifest": 138
+}
