@@ -10,6 +10,6 @@ The recovered project contains `android/app/build.gradle`, `android/variables.gr
 
 The evidence supports studying and potentially reconstructing the build, but it does not prove a single original build command, dependency lock state, signing configuration, or source commit for each APK. The APK signing certificates differ across the preserved objects. No original signing private key is included.
 
-The `dist/` directory, Gradle build outputs, generated Android assets, dependency directories, and APK release copies inside the source archive are excluded from the source snapshot. They are generated or separately preserved artifacts, not assumed required source inputs.
+The `dist/` directory, `.gradle` state, generated Capacitor/Cordova synchronization outputs, Gradle build outputs, generated Android assets, dependency directories, and APK release copies inside the source archive are excluded from the source snapshot. They are generated or separately preserved artifacts, not assumed required source inputs.
 
 No build is executed by creation of this archive. Any future build must be a separate, clearly labelled reconstruction and must not replace an original APK.

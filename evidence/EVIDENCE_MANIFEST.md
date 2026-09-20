@@ -2,7 +2,7 @@
 
 Preserved APK evidence objects: 4
 
-Archive inventory: 138 files total, of which 137 are listed in the machine-readable manifest; the JSON manifest excludes its own self-hash.
+Archive inventory: 116 files total, of which 115 are listed in the machine-readable manifest; the JSON manifest excludes its own self-hash.
 
 | ID | Preserved file | Size | SHA-256 | Package | Version | SDK | Signer certificate SHA-256 | Status |
 |---|---|---:|---|---|---|---|---|---|

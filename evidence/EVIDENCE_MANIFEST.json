@@ -42,8 +42,8 @@
   "source_scope": {
     "status": "VERIFIED_FROM_RECOVERED_SOURCE",
     "included": "source and build inputs excluding generated outputs, dependency directories, dist, build intermediates, and APK release copies",
-    "excluded": "generated/intermediate material and the source archive nested .git directory",
-    "source_file_count": 123
+    "excluded": "generated Gradle state (.gradle), generated Capacitor/Cordova synchronization outputs, generated dist/build/intermediate material, dependency directories, and APK release copies inside the source archive",
+    "source_file_count": 101
   },
   "files": [
     {
@@ -114,8 +114,8 @@
     },
     {
       "path": "evidence/EVIDENCE_MANIFEST.md",
-      "size_bytes": 1578,
-      "sha256": "00eb2ac50c8da8db6aa64649ae14fea9079bdc82784e7ec11a888986491017f4",
+      "size_bytes": 1719,
+      "sha256": "db5ea1160d1a0d60c465b02152457c34c3b1a6eeafb95274664d29c54ab78c27",
       "evidence_status": "DOCUMENTATION/METADATA"
     },
     {
@@ -140,102 +140,6 @@
       "path": "recovered-source/grimchess-mobile/android/.gitignore",
       "size_bytes": 1824,
       "sha256": "065e4a92a240fe11a0ea230491ad9dabef143f5fd5a3e6884ad6f0395666a971",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/checksums/checksums.lock",
-      "size_bytes": 17,
-      "sha256": "bc0819f5adc878136c9307c6dcb9f545af4fcc9eba5b7e35c28deeae2ef95d18",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/checksums/md5-checksums.bin",
-      "size_bytes": 36147,
-      "sha256": "91d8a1efa81de754df163c0c82a2c5d1e4af6cbf39e34c7ff6c4efeea4998056",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/checksums/sha1-checksums.bin",
-      "size_bytes": 86207,
-      "sha256": "d8c44636811590c80002c61e9d1d62993e878d1af2f75443d40d734f4f5d9ffd",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/dependencies-accessors/dependencies-accessors.lock",
-      "size_bytes": 17,
-      "sha256": "f65740785ba987f8183f102854aa5b365899821f75093bcbefe706095bf5fb19",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/dependencies-accessors/gc.properties",
-      "size_bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/executionHistory/executionHistory.bin",
-      "size_bytes": 8950203,
-      "sha256": "3b22566b454f4c21c27341383fcbe2fad8e3dc3be105efd653fc95d556432d04",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/executionHistory/executionHistory.lock",
-      "size_bytes": 17,
-      "sha256": "81c233127c9a3c518d93140a8d94892ef528e590933481365e780fb52ea5288e",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/fileChanges/last-build.bin",
-      "size_bytes": 1,
-      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/fileHashes/fileHashes.bin",
-      "size_bytes": 440591,
-      "sha256": "ad32e41ecb84357a2fac13d1e54f4868c40f50fa66779563d989d0bea5457d39",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/fileHashes/fileHashes.lock",
-      "size_bytes": 17,
-      "sha256": "753ff810e3bce695b4df208594e940ea8e5df0c116425538405137130100e15e",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/fileHashes/resourceHashesCache.bin",
-      "size_bytes": 21693,
-      "sha256": "f956e4839589fde29e8232e301b3f1a005ae420dff5b9da3f81c419e82fb95b6",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/8.2.1/gc.properties",
-      "size_bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock",
-      "size_bytes": 17,
-      "sha256": "554df3ff933ce4e2af0d93a14b59b76135ddcf0fd1840f631f313545451c4d5a",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/buildOutputCleanup/cache.properties",
-      "size_bytes": 51,
-      "sha256": "ccc47bd2e2a07fb0ebdf5bdace084602ef91df9bf27b6fc8aceef2bbf7ff6dad",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/buildOutputCleanup/outputFiles.bin",
-      "size_bytes": 170357,
-      "sha256": "cbb71786e9bcb6423c7b57f75bcd47ac29700d093a6ea6ccd957dd0870a0d9b6",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/.gradle/vcs-1/gc.properties",
-      "size_bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
     },
     {
@@ -485,12 +389,6 @@
       "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
     },
     {
-      "path": "recovered-source/grimchess-mobile/android/app/src/main/res/xml/config.xml",
-      "size_bytes": 185,
-      "sha256": "e9dcda493e663c5c4db9e3cb3bd968477a6e90aa8840bcbba40d72ed54b767ce",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
       "path": "recovered-source/grimchess-mobile/android/app/src/main/res/xml/file_paths.xml",
       "size_bytes": 213,
       "sha256": "a46ed43ef65c90cb6778f4581decf3556e3f0055aad8f36d69dae16f9a0e99aa",
@@ -506,36 +404,6 @@
       "path": "recovered-source/grimchess-mobile/android/build.gradle",
       "size_bytes": 636,
       "sha256": "c05c6e67af5651a56aecb0908027be42c84c03dad529af4839dbdc4393405158",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/build.gradle",
-      "size_bytes": 1661,
-      "sha256": "0fc6605e7e0f9b9ba2e60be539c5a9e42b8ef6841e684439c7061cdaade5837f",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/cordova.variables.gradle",
-      "size_bytes": 312,
-      "sha256": "1a5679e3f7757891431842bbdd89e9570445d4180a23a2d00f101dd8860d77a7",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml",
-      "size_bytes": 210,
-      "sha256": "2e3e383475f0e6cb76f0a7b46017a546663fba8e5bd1ef2a537412afac2ee9b5",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/src/main/java/.gitkeep",
-      "size_bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
-    },
-    {
-      "path": "recovered-source/grimchess-mobile/android/capacitor-cordova-android-plugins/src/main/res/.gitkeep",
-      "size_bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
       "evidence_status": "VERIFIED_FROM_RECOVERED_SOURCE"
     },
     {
@@ -875,6 +743,6 @@
     "No Old-versus-Current comparison is performed in this archive.",
     "Excluded generated assets may be regenerated only if the build inputs and external dependencies are available."
   ],
-  "archive_file_count_excluding_self_manifest": 137,
-  "archive_file_count_including_self_manifest": 138
+  "archive_file_count_excluding_self_manifest": 115,
+  "archive_file_count_including_self_manifest": 116
 }
